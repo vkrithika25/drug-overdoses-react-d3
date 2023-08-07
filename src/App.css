@@ -1,38 +1,224 @@
-.App {
+@font-face {
+  font-family: Inter-Light;
+  src: url(./fonts/Inter-Light.ttf)
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url(./fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter-Medium;
+  src: url(./fonts/Inter-Medium.ttf)
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url(./fonts/Inter-Bold.ttf)
+}
+
+body {
+  background-color: #04052e;
+}
+
+.content {
+  display:flex; 
+  flex-direction:row;
+  gap: 0vw;
+}
+
+.App h1, .map-header {
+  font-family: "Inter-Bold";
+  font-size: 30px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h2 {
+  font-family: "Inter-Light";
+  font-size: 20px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.BackgroundInfo {
+  width: 28vw;
+  margin: 10px 10px 10px 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.BackgroundInfo h1 {
+  color: white;
+  font-family: 'Inter-Bold';
+  text-align: center;
+}
+
+.card h1 {
+  line-height: 0.9;
+}
+
+.css-1f9y0kf-MuiCardContent-root {
+  padding: 12px 12px 12px 12px;
+}
+
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 15px 15px 15px 15px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.map-subheader {
+  font-family: Inter-Medium;
+  font-size: 12px;
+}
+
+.map-header {
+  margin: 10px 10px 10px 10px;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 12px;
+}
+
+.dot {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.legend-description {
+  max-width: 8vw;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.pink {
+  background-color: #d60063;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.orange {
+  background-color: #ff7a00;
+}
+
+.grey {
+  background-color: #e1e1e1;
+}
+
+.Filter {
+  color: white;
+  margin: 10px 10px 10px 10px;
+}
+
+.Filter p {
+  font-size: 12px;
+}
+
+.Filter span {
+  display: flex; 
+  justify-content: center;
+  align-content: center;
+}
+
+.Filter h1 {
+  margin: 5px 5px 5px 5px;
+}
+
+.Filter h4 {
+  color:#04052e;
+}
+
+.sorting {
+  color: white;
+}
+
+.radio-group {
+  margin: 10px 10px 10px 10px;
+  color: black;
+  background-color: white;
+}
+
+.css-ahj2mt-MuiTypography-root {
+  font-family: "Inter-Light";
+}
+
+
+.tooltip {
+  white-space: nowrap;
+  visibility: hidden;
+  z-index: 9999;
+  background-color: #04052e;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+  position: absolute; /* Change from 'fixed' to 'absolute' */
+}
+
+.tooltip p {
+  margin: 0;
+}
+
+.container h1, h4 {
+  margin: 20px 0px 20px 0px
+}
+
+.container h4 {
+  font-family: "Inter-Light";
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+  font-size: small;
+}
+
+.MuiContainer-root, .MuiContainer-maxWidthXl, .css-19r6kue-MuiContainer-root {
+  background-color: #534ae3;
+}
+
+#intro-page {
+  text-align: center;
+  color: white;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#intro-page h1 {
+  font-size: 60px;
+  line-height: 1.1;
+  margin: 15px 10px 15px 10px;
+  color: #dedede
+}
+
+#intro-page h2 {
+  font-family: 'Inter-Bold';
+  font-size: 30px;
+  line-height: 1.1;
+}
+
+#intro-page h4, p, ol {
+  margin: 10px 5px 10px 5px;
+}
+
+#intro-page ol, a {
+  color: #ff7a00  
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+}
+
+#option-button:hover {
+  background-color: #ff7a00;
 }
