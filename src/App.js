@@ -58,7 +58,7 @@ export default function App() {
       <div>
       <Router>
             <Routes>
-                <Route exact path='/' element={<HomePage />} />
+                <Route exact path='/drug-overdoses-react-d3' element={<HomePage />} />
                 <Route path='/scatterplot' element={<ScatterplotPage />} />
                 <Route path='/map' element={<MapPage />} />
                 <Route path='/box' element={<BoxPage />} />

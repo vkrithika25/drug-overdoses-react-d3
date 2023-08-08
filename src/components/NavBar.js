@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 
-const pages = [{name: 'Home', link: '/'}, {name: 'Map View', link: '/map'}, {name: 'BoxPlot View', link: '/box'}, {name: 'Scatterplot View', link: '/scatterplot'}];
+const pages = [{name: 'Home', link: '/drug-overdoses-react-d3'}, {name: 'Scatterplot View', link: '/scatterplot'}, {name: 'Map View', link: '/map'}, {name: 'BoxPlot View', link: '/box'}];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
