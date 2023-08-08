@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/drug-overdoses-react-d3/static/css/main.465639a2.css",
-    "main.js": "/drug-overdoses-react-d3/static/js/main.dfbed9ff.js",
+    "main.js": "/drug-overdoses-react-d3/static/js/main.e6827526.js",
     "static/js/787.3ecd7fac.chunk.js": "/drug-overdoses-react-d3/static/js/787.3ecd7fac.chunk.js",
     "static/media/Inter-Bold.ttf": "/drug-overdoses-react-d3/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
     "static/media/Inter-Medium.ttf": "/drug-overdoses-react-d3/static/media/Inter-Medium.6dcbc9bed1ec438907ee.ttf",
@@ -9,11 +9,11 @@
     "static/media/Inter-Regular.ttf": "/drug-overdoses-react-d3/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
     "index.html": "/drug-overdoses-react-d3/index.html",
     "main.465639a2.css.map": "/drug-overdoses-react-d3/static/css/main.465639a2.css.map",
-    "main.dfbed9ff.js.map": "/drug-overdoses-react-d3/static/js/main.dfbed9ff.js.map",
+    "main.e6827526.js.map": "/drug-overdoses-react-d3/static/js/main.e6827526.js.map",
     "787.3ecd7fac.chunk.js.map": "/drug-overdoses-react-d3/static/js/787.3ecd7fac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.465639a2.css",
-    "static/js/main.dfbed9ff.js"
+    "static/js/main.e6827526.js"
   ]
 }
