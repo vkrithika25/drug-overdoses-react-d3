@@ -8,7 +8,7 @@ export default function Homepage() {
           {/* <NavBar id="navbar" /> */}
           <div id="intro-page">
             <h1>Drug Overdose Fatalities in the US in 2020 and Mitigation Methods</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque id nibh tortor id aliquet lectus proin. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Faucibus purus in massa tempor nec. Elit pellentesque habitant morbi tristique senectus et netus. Tempus quam pellentesque nec nam aliquam sem et. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget. Felis imperdiet proin fermentum leo vel orci porta non</p>
+            <p>Drug overdose rates have been shooting up in the past few decades, from under 20,000 deaths in 1999 to over 106,000 deaths in 2021. Both the state and federal governments have tried multiple measures to flatten this growth curve - the two that will be examined here are Syringe Exchange Programs and Substance Abuse Facilities. Navigate around this dashboard to see multiple representations of data on dug overdoses in 2020.</p>
             <Options />
             <h4>To learn more, visit:</h4>
             <ol>
