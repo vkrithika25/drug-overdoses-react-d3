@@ -59,9 +59,9 @@ export default function App() {
       <Router>
             <Routes>
                 <Route exact path='/drug-overdoses-react-d3' element={<HomePage />} />
-                <Route path='/scatterplot' element={<ScatterplotPage />} />
-                <Route path='/map' element={<MapPage />} />
-                <Route path='/box' element={<BoxPage />} />
+                <Route path='/drug-overdoses-react-d3/scatterplot' element={<ScatterplotPage />} />
+                <Route path='/drug-overdoses-react-d3/map' element={<MapPage />} />
+                <Route path='/drug-overdoses-react-d3/box' element={<BoxPage />} />
             </Routes>
         </Router>
       </div>
