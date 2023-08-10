@@ -42,11 +42,11 @@ export default function Filter(props) {
                 <span className="dot" style={{ backgroundColor: syringeColor }} onClick={handleOrangeCircleClick}>
                     <h4>{props.selectedColors.includes('SYRINGE') ? "ON" : "OFF"}</h4>
                 </span>
-                <p className="legend-description">drug abuse facilities accepting Medicaid per 1000 people</p>
+                <p className="legend-description">syringe exchange facilities per 1000 people</p>
                 <span className="dot" style={{ backgroundColor: facilityColor }} onClick={handlePinkCircleClick}>
                     <h4>{props.selectedColors.includes('FACILITY') ? "ON" : "OFF"}</h4>
                 </span>
-                <p className="legend-description">syringe exchange facilities per 1000 people</p>
+                <p className="legend-description">drug abuse facilities accepting Medicaid per 1000 people</p>
             </div>
         </div>
     )
