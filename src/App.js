@@ -9,7 +9,7 @@ import ScatterplotPage from './components/ScatterplotPage';
 export default function App() {
     return (
       <div>
-      <Router>
+      <Router basename="/drug-overdoses-react-d3">
             <Routes>
                 <Route exact path='/' element={<HomePage />} />
                 <Route path='/scatterplot' element={<ScatterplotPage />} />
