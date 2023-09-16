@@ -11,7 +11,7 @@ I used the Social Determinants of Health (SDOH) dataset from 2020, provided by t
 **Visualizations:**
 1. Map View: A choropleth map offers an aggregate overview of drug overdose rates by state.
 2. Boxplot View: Dive into aggregate statistics per state through the interactive boxplot visualization.
-3. Scatterplot View: This engaging scatterplot maps overdose rates against the availability of syringe exchange facilities and Medicaid-accepting substance abuse treatment centers at the county level.
+3. Scatterplot View: This scatterplot maps overdose rates against the availability of syringe exchange facilities and Medicaid-accepting substance abuse treatment centers at the county level.
 
 You can explore these visualizations further with the help of various tooltips and filters for a richer understanding of the data.
 
