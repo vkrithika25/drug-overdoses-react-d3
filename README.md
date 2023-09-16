@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+**Exploring 2020 Drug Overdose Data Across the United States**
+
+**Quick Access:** You can visit the web app to see the final product [here](https://vkrithika25.github.io/drug-overdoses-react-d3)
+
+**Description:**
+This is a web application that explores data about drug oversodes in all 50 states across the United States in 2020 using data visualization. The COVID-19 pandemic witnessed a distressing surge in drug overdose rates, emphasizing the critical need to monitor these shifts. Such data aids local, state, and federal governments in tailoring their substance abuse support programs to effectively serve their communities. In addition to presenting mortality rates attributed to drug overdoses, these visualizations illustrate two strategies employed at the county level to combat substance abuse: syringe exchange facilities and substance abuse treatment centers that accept Medicaid.
+
+**Data Source:**
+I used the Social Determinants of Health (SDOH) dataset from 2020, provided by the Agency for Healthcare Research and Quality (AHRQ). This dataset encompasses a staggering 200 columns of data from each of the over 3,000 counties in the United States.
+
+**Visualizations:**
+1. Map View: A choropleth map offers an aggregate overview of drug overdose rates by state.
+2. Boxplot View: Dive into aggregate statistics per state through the interactive boxplot visualization.
+3. Scatterplot View: This engaging scatterplot maps overdose rates against the availability of syringe exchange facilities and Medicaid-accepting substance abuse treatment centers at the county level.
+
+You can explore these visualizations further with the help of various tooltips and filters for a richer understanding of the data.
+
+**Technologies:**
+I utilized Python script to parse and transform the raw SDOH dataset into a JSON object. The UI of this app was constructed using the React.js and Material UI libraries, while data visualization was achieved through the powerful d3.js library.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
